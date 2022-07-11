@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@300&family=Dancing+Script:wght@600&family=Fira+Sans:wght@600&family=Indie+Flower&family=Mukta&family=Pacifico&family=Poppins:wght@600&family=Quicksand:wght@500&family=Rubik+Moonrocks&family=The+Nautigal:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@300&family=Dancing+Script:wght@700&family=Fira+Sans:wght@600&family=Indie+Flower&family=Mukta&family=Pacifico&family=Poppins:wght@600&family=Quicksand:wght@500&family=Rubik+Moonrocks&family=The+Nautigal:wght@700&display=swap');
+
+:root{
+    --nav-color: #6366f1;
+    --background-color: #d4d4d8;
+}
+body{
+    font-family: 'Dancing Script', cursive;
+}
+
+.nav-container{
+    background-color: var(--nav-color);
+    padding-top: 1rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    margin: -1rem -1rem 2rem;
+}
+.nav-heading{
+    color: black;
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: 2rem;
+    padding-left: 1rem;
+}
+.links{
+    text-align: end;
+    padding-right: 3rem;
+}
+
+.link{
+    color: black;
+    font-size: 1.5rem;
+    text-align: justify;
+    margin-left: 1.5rem;
+}
+.main-heading{
+    text-align: center;
+    font-size: 2.5rem;
+}
+.label-css1{
+    margin-top: 2rem;
+}
+.label-css{
+    font-size: 2rem;
+    display: block;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.input-angles{
+    display: block;
+    margin: auto;
+    min-width: 20rem;
+    min-height: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 0.5rem;
+    border-color:5px solid black;
+}
+#Is-triangle-btn{
+    display: block;
+    margin: auto;
+    padding: 0.5rem 3rem;
+    border-radius: 0.4rem;
+    background-color: var(--nav-color);
+    font-size: 1.5rem;
+    font-family: 'Dancing Script', cursive;
+}
+#output{
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.main-footer{
+    background-color: var(--nav-color);
+    margin-top: 7rem;
+    padding: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: -1rem -1rem;
+}
+.social-link{
+    color: black;
+    padding-left: 2rem;
+}

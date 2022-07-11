@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@300&family=Dancing+Script:wght@600&family=Fira+Sans:wght@600&family=Indie+Flower&family=Mukta&family=Pacifico&family=Poppins:wght@600&family=Quicksand:wght@500&family=Rubik+Moonrocks&family=The+Nautigal:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@300&family=Dancing+Script:wght@700&family=Fira+Sans:wght@600&family=Indie+Flower&family=Mukta&family=Pacifico&family=Poppins:wght@600&family=Quicksand:wght@500&family=Rubik+Moonrocks&family=The+Nautigal:wght@700&display=swap');
+
+:root{
+    --button-color: #6366f1;
+    --background-color: #d4d4d8;
+    --footer-color: #6366f1;
+}
+body{
+    display: block;
+    font-family: 'Dancing Script', cursive;
+}
+.nav-container{
+    background-color: var(--button-color);
+    padding-top: 1rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    margin: -1rem -1rem 2rem;
+}
+.nav-heading{
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: 2rem;
+    padding-left: 1rem;
+    color: black;
+}
+.links{
+    text-align: end;
+    padding-right: 3rem;
+}
+
+.link{
+    font-size: 1.5rem;
+    text-align: justify;
+    margin-left: 1.5rem;
+    color: black;
+}
+.main-heading{
+    text-align: center;
+    font-size: 2.5rem;
+}
+#form-quiz{
+    text-align: center;
+}
+#submit-btn{
+    display: block;
+    margin: auto;
+    margin-top: 1.5rem;
+    padding: 0.5rem 3rem;
+    border-radius: 0.4rem;
+    background-color: var(--button-color);
+    font-size: 1.5rem;
+    font-family: 'Dancing Script', cursive;
+}
+.div-container1, .div-container2, .div-container3, .div-container4, .div-container5, .div-container6, .div-container7, .div-container8{
+    padding: 1rem 1rem 2rem 1rem;
+    font-size: 1.5rem;
+}
+.div-container1, .div-container3, .div-container5, .div-container7{
+    background-color: var(--background-color);
+    margin: 0rem 1rem;
+    border-radius: 1rem;
+}
+.div-container1{
+    margin-top: 2rem;
+}
+#output{
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 2rem;
+}
+.main-footer{
+    background-color: var(--footer-color);
+    margin-top: 7rem;
+    padding: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: -1rem -1rem;
+}
+.social-link{
+    color: black;
+    padding-left: 2rem;
+}

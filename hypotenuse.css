@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@300&family=Dancing+Script:wght@600&family=Fira+Sans:wght@600&family=Indie+Flower&family=Mukta&family=Pacifico&family=Poppins:wght@600&family=Quicksand:wght@500&family=Rubik+Moonrocks&family=The+Nautigal:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@300&family=Dancing+Script:wght@700&family=Fira+Sans:wght@600&family=Indie+Flower&family=Mukta&family=Pacifico&family=Poppins:wght@600&family=Quicksand:wght@500&family=Rubik+Moonrocks&family=The+Nautigal:wght@700&display=swap');
+
+:root{
+    --button-color: #6366f1;
+    --background-color: #d4d4d8;
+    --footer-color: #6366f1;
+}
+body{
+    display: block;
+    font-family: 'Dancing Script', cursive;
+}
+.nav-container{
+    background-color: var(--button-color);
+    padding-top: 1rem;
+    margin: -1rem -1rem 2rem;
+    padding-bottom: 1rem
+}
+.nav-heading{
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: 2rem;
+    padding-left: 1rem;
+    color: black;
+}
+.links{
+    text-align: end;
+    padding-right: 3rem;
+}
+
+.link{
+    font-size: 1.5rem;
+    text-align: justify;
+    margin-left: 1.5rem;
+    color: black;
+}
+.main-heading{
+    text-align: center;
+    font-size: 2.5rem;
+}
+.inputlabel1, .inputlabel2{
+    display: block;
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 2rem;
+}
+.input{
+    display: block;
+    margin: auto;
+    min-width: 20rem;
+    min-height: 2rem;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+}
+#submit-btn{
+    display: block;
+    margin: auto;
+    margin-top: 2.5rem;
+    padding: 0.5rem 3rem;
+    border-radius: 0.4rem;
+    background-color: var(--button-color);
+    font-size: 1.5rem;
+    font-family: 'Dancing Script', cursive;
+}
+#output{
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 2rem;
+    margin-bottom: 12rem;
+}
+.main-footer{
+    background-color: var(--footer-color);
+    padding: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: -1rem -1rem;
+}
+.social-link{
+    color: black;
+    padding-left: 2rem;
+}
