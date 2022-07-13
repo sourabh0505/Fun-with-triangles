@@ -2,8 +2,8 @@ const submitButton = document.querySelector("#submit-btn");
 const inputValues = document.querySelectorAll(".input");
 const outputRslt = document.querySelector("#output");
 
-function calculateTheFormula(base, perpendicular){
-    const areaFormula = (base*perpendicular)/2;
+function calculateTheFormula(base, height){
+    const areaFormula = (base*height)/2;
     return areaFormula;
 }
 
